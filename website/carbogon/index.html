@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>carbogon</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@1.12.0/dist/full.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    </head>
+    
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> CARBOGON
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#borrow" class="nav__link">BORROW CCs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#lend" class="nav__link">LEND CCs </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#check transaction" class="nav__link">check transaction</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                        
+                      
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div style="color:rgba(9, 9, 9, 0) class="home__data">
+                        <h1 class="block-effect" style="--td: 1.2s">
+                            <div class="block-reveal" style="--bc: #fdfdfd; --d: .6s" >CARBON</div>
+                            <div class="block-reveal" style="--bc: #0d3d0d; --d: .10s" >TO CRYPTO</div>
+                          </h1>
+                          
+                          
+                          
+                          
+                        <p style="color:rgb(0, 0, 0); class="home__description">
+                            A decentralised carbon marketplace to OFFSET and TRADE carbon.<br>
+                            Trade and offset tokenised carbon credits with crypto tokens and make
+                            a rapid,positive impact on the planet.
+
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+
+                        <p style="color:rgb(0, 0, 0);" class="about__description">
+                            We securitize carbon credits into fungible and tradable securities with transparent pricing and real time settlement.
+                        </p>
+
+                        <div class="about__details">
+                            <p style="color:rgb(0, 0, 0);" class= "about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Businesses and individuals alike can mitigate their unavoidable carbon emissions with the purchase of LIOH tokens, derived from high-quality, nature-based projects and verified to the highest international standards.
+                            </p>
+                            <p style="color:rgb(0, 0, 0);" class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                1 LIOH token = 1 tonne of carbon removed from the atmosphere. Buyers, consumers or wholesalers can sell or purchase LIOHs and, most importantly, retire LIOHs to offset their historic, or future carbon impact, 
+                                whilst funding more carbon removal.
+                            </p>
+                            
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            TRADE <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        <body>
+                            <div class="waviy">
+                              <span style="--i:1">O</span>
+                              <span style="--i:2">U</span>
+                              <span style="--i:3">R</span>
+                              <span style="--i:4"></span>
+                              <span style="--i:5">M</span>
+                              <span style="--i:6">I</span>
+                              <span style="--i:7">S</span>
+                              <span style="--i:8">S</span>
+                              <span style="--i:9">I</span>
+                              <span style="--i:10">O</span>
+                              <span style="--i:11">N</span>
+                           
+                             </div>
+                           </body>
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title"></h3>
+                            <p class="steps__card-description">
+                                Our mission is to digitalise and mobilise the world carbon market to make it simple, traceable and accountable
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title"></h3>
+                            <p class="steps__card-description">
+                                In doing so, we aim to bring billions of dollars of investment to the marketplace and maximise the money going back into the nature-based projects
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title"></h3>
+                            <p class="steps__card-description">
+                                These high-quality projects will sequester gigatonnes of carbon from the atmosphere and ensure project developers have fair and free market acces
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="borrow section container" id="borrow">
+                <div class="borrow_box">
+               <h1 style="font-size:25px;" class="section__title-center steps__title" >
+                BORROW CCs
+                <p style="color:rgb(0, 0, 0);" ><br> TO BORROW CARBON TOKEN, 
+                WE NEED TO DONATE CERTAIN AMOUNT OF TOKENS TO THE LENDER<br>
+            you need to fetch the address of the lender<br>
+        lets say 1 CCs=0.0001ETH<br></p>
+    </h1> 
+           </div> 
+           <a href=" https://7vuy7.csb.app/" ><button  class="button button--flex">
+            click here to borrow
+            <i class="ri-arrow-right-up-line button__icon"></i>
+        </button></a></section>
+
+        <section class="lend section container" id="lend">
+                <div class="lend_box">
+               <h1 style="font-size:25px; " class="section__title-center steps__title">
+                LEND CCs
+                
+                <p style="color:rgb(0, 0, 0);"><br>BY LENDING CARBON TOKEN, WE WILL
+                GET CRYPTO TOKENS IN COLLATERAL<br>
+            YOU NEED TO LOGIN INTO YOUR WALLET<br>
+        lets say 1 CCs=0.0001ETH<br></p>
+    </h1> 
+
+           </div> 
+          
+        <button id='loginButton' onclick=""  class="button button--flex">
+            click here to lend
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+          <p id='userWallet' class='text-lg text-gray-600 my-2'></p>
+        </div>
+      
+        <script>
+          window.userWalletAddress = null
+          const loginButton = document.getElementById('loginButton')
+          const userWallet = document.getElementById('userWallet')
+      
+          function toggleButton() {
+            if (!window.ethereum) {
+              loginButton.innerText = 'MetaMask is not installed'
+              loginButton.classList.remove('bg-green-500', 'text-white')
+              loginButton.classList.add('bg-gray-500', 'text-gray-100', 'cursor-not-allowed')
+              return false
+            }
+      
+            loginButton.addEventListener('click', loginWithMetaMask)
+          }
+      
+          async function loginWithMetaMask() {
+            const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
+              .catch((e) => {
+                console.error(e.message)
+                return
+              })
+            if (!accounts) { return }
+      
+            window.userWalletAddress = accounts[0]
+            userWallet.innerText = window.userWalletAddress
+            loginButton.innerText = 'Sign out of MetaMask'
+      
+            loginButton.removeEventListener('click', loginWithMetaMask)
+            setTimeout(() => {
+              loginButton.addEventListener('click', signOutOfMetaMask)
+            }, 200)
+          }
+      
+          function signOutOfMetaMask() {
+            window.userWalletAddress = null
+            userWallet.innerText = ''
+            loginButton.innerText = 'Sign in with MetaMask'
+      
+            loginButton.removeEventListener('click', signOutOfMetaMask)
+            setTimeout(() => {
+              loginButton.addEventListener('click', loginWithMetaMask)
+            }, 200)
+          }
+      
+          window.addEventListener('DOMContentLoaded', () => {
+            toggleButton()
+          });
+        </script>
+        <section  class="check-transaction" id="check transaction">
+
+            <h1 style="font-size:25px;color:rgb(0, 0, 0);" class="section__title-center steps__title" >Check Transactions</h1>
+            <a href="https://ropsten.etherscan.io/address/0xc67236cfec8dbc5578b2d503adbc0854e195c472" ><button  class="button button--flex">
+                CLICK HERE
+                <i class="ri-arrow-right-up-line button__icon"></i>
+            </button></a>   
+        </section>
+       
+
+                
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> to know more about us <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +999 888 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    user@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> CARBOGON
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">VIT Vellore</li>
+                        <li class="footer__information">Tamil Nadu</li>
+                        <li class="footer__information">India</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+91 6383 851 691</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+            
+                </div>
+            </div>
+
+            
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+
+        <noscript>
+            You need to enable JavaScript to run this app.
+          </noscript>
+          <div id="root"></div>
+
+    </body>
